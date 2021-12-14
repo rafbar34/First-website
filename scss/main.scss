@@ -1,4 +1,5 @@
 @import './_colors';
+@import'./_animate';
 *::before,
 *::after{
     box-sizing: border-box;
@@ -285,4 +286,93 @@ height: auto;
     }
     font-size: 20px;
 }
+.team-bar{
+    position: relative;
+    background-image: url(/img/time-g3e0620be0_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    height: 100%;
+    
+    .team-shadow{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+        top: 0;
+        z-index: -5;
+    }
 
+    h2{
+        color:$littlegrey;
+    }
+     .card{
+    transition: 0.4s;
+img{
+    height: 300px;
+    object-fit: cover;
+
+}
+i{
+    padding: 10px;
+}
+}
+    .card:hover{
+        transform: scale(0.95);
+    }
+    .card-title{
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+        .card-body{
+            height: 160px;
+        }
+}
+#achievements{height: 100%;}
+.achievement{
+    i{
+        padding: 10px ;
+        font-size: 30px;
+       color: $white;
+        text-shadow: 0 0 5px #000;
+    }
+}
+.contact{
+    background-image: url(/img/abstract-g246802b6c_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: $littlegrey;
+    position: relative;
+    z-index: 0;
+    height: 100%;
+
+    .contact-us{
+        margin: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+      h3{
+          letter-spacing: 3px;
+          margin-bottom: 2px;
+          text-transform: uppercase;
+      }
+        .social-media{
+            i{
+                color: $white;
+                padding: 15px;
+                font-size: 25px;
+            }
+          
+        }
+       
+    } 
+   
+}
+.contact-shadow{
+       background-color: rgba(0, 0, 0, 0.6);
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       top: 0;
+       z-index: -1;
+   } 
