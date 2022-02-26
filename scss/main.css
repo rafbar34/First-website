@@ -128,7 +128,7 @@ nav .fa-bars {
 .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("/img/hamburger-g53ad7fa08_1920.jpg");
+  background-image: url("./img/hamburger-g53ad7fa08_1920.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -230,7 +230,7 @@ header p {
   }
   .aboutus-hero {
     position: relative;
-    background-image: url("/img/vegan-g3d033a2fe_640.jpg");
+    background-image: url("./img/vegan-g3d033a2fe_640.jpg");
     background-size: cover;
     color: #ddd;
     z-index: 0;
@@ -242,7 +242,7 @@ header p {
 
 @media (min-width: 1200px) {
   header .hero-img {
-    background-image: url("/img/hamburger-g53ad7fa08_1920.jpg");
+    background-image: url("./img/hamburger-g53ad7fa08_1920.jpg");
   }
 }
 
@@ -252,7 +252,7 @@ section {
 
 .aboutus-hero {
   position: relative;
-  background-image: url("/img/vegan-g5b0e7750b_1920.jpg");
+  background-image: url("./img/vegan-g5b0e7750b_1920.jpg");
   background-size: cover;
   color: #ddd;
   z-index: 0;
@@ -341,7 +341,7 @@ section {
 
 .team-bar {
   position: relative;
-  background-image: url("/img/time-g3e0620be0_1920.jpg");
+  background-image: url("./img/time-g3e0620be0_1920.jpg");
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
@@ -400,7 +400,7 @@ section {
 }
 
 .contact {
-  background-image: url("/img/abstract-g246802b6c_1920.jpg");
+  background-image: url("./img/abstract-g246802b6c_1920.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: #ddd;
